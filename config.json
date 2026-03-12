@@ -1,0 +1,34 @@
+{
+  "name": "ly-memory-palace",
+  "version": "1.0.0",
+  "description": "LY Memory Palace — 类人脑分层记忆系统，AI 通过 CLI 调用实现跨会话长期记忆",
+  "author": "liangyi",
+  "settings": {
+    "max_semantic_memories": 200,
+    "max_episodic_memories": 100,
+    "max_procedural_memories": 150,
+    "max_context_inject": 15,
+    "decay_rate": 0.05,
+    "reinforce_boost": 0.3,
+    "activation_threshold": 0.2,
+    "forget_threshold": 0.05,
+    "association_depth": 2
+  },
+  "memory_layers": {
+    "semantic": {
+      "description": "语义记忆：事实、知识、偏好、规则（长期稳定）",
+      "decay_multiplier": 0.3,
+      "base_strength": 0.8
+    },
+    "episodic": {
+      "description": "情景记忆：具体事件、对话场景（随时间衰减）",
+      "decay_multiplier": 1.0,
+      "base_strength": 0.6
+    },
+    "procedural": {
+      "description": "程序记忆：操作习惯、工作流程（使用后强化）",
+      "decay_multiplier": 0.5,
+      "base_strength": 0.7
+    }
+  }
+}
