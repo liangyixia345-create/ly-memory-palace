@@ -1,4 +1,4 @@
-# LY Memory Palace 记忆宫殿
+# LY Memory Palace 记忆宫殿 
 
 ## 功能介绍 | Feature Overview
 
@@ -95,6 +95,19 @@ python palace.py export --file backup.json
 # 导入记忆 | Import memories
 python palace.py import --file backup.json
 ```
+Feedback & Optimization
+
+We welcome your feedback, suggestions, and bug reports to help improve this project.
+
+Contact: 529293436@qq.com
+
+What to share:
+
+Bug reports or issues encountered
+Feature requests or improvement suggestions
+Performance optimization ideas
+Usage scenarios or success stories
+Your feedback helps make this better for everyone!
 
 ### 中文
 
@@ -140,4 +153,5 @@ python palace.py import --file backup.json
 ## 许可 | License
 
 MIT
+
 
