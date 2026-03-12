@@ -1,4 +1,5 @@
 # LY Memory Palace 记忆宫殿 
+Python required. Uses local storage to minimize token consumption.
 
 ## 功能介绍 | Feature Overview
 
@@ -153,5 +154,6 @@ Your feedback helps make this better for everyone!
 ## 许可 | License
 
 MIT
+
 
 
